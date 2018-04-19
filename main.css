@@ -6,7 +6,7 @@ ul.menu {
   text-align: center;
   text-transform: uppercase;
   position: relative;
-  z-index: 1000;
+  z-index: 999;
   margin-top: 0;
 }
 body {
