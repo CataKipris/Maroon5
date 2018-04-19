@@ -1,0 +1,310 @@
+/* CSS MENU */
+
+ul.menu {
+  list-style-type: none;
+  letter-spacing: 2px;
+  text-align: center;
+  text-transform: uppercase;
+  position: relative;
+  z-index: 999;
+  margin-top: 0;
+}
+body {
+  font-family: "Lato", sans-serif;
+}
+a {
+  color: black;
+  text-decoration: none;
+  height: 10px;
+}
+
+a:visited {
+  color: black;
+  text-decoration: none;
+}
+
+.menu li a {
+  display: block
+}
+
+.menu li {
+  display: inline-block;
+  margin: 10px 15px;
+  position: relative;
+}
+
+a:hover {
+  color: #59c7de;
+  font-weight: bold;
+}
+
+a.active {
+  color: #e08dba;
+  font-weight: bold;
+}
+
+#submenu {
+  left: 0;
+  display: none;
+  position: absolute;
+  padding: 3px;
+  top: 20px;
+  opacity: 0.8;
+  background-color: white;
+  
+}
+
+#submenu li a{
+  text-align: center;
+  display: block;
+}
+
+li:hover ul#submenu {
+  display: block;
+  color: #59c7de;
+  font-size: 10px;
+  line-height: 20px;
+  float: none;
+
+}
+  
+/* CSS HOME */
+.bghome {
+  background-color: whitesmoke;
+}
+
+#cajatransparente {
+  display: block;
+  margin: 0 auto;
+  padding: 0;
+}
+
+#cajaimagenes {
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.bandmembers {
+  width: 200px;
+  display: inline-block;
+  margin: 5px;
+  padding: 5px;
+  box-shadow: 3px 3px 6px grey;
+  border: 10px solid white;
+}
+
+.redpillblues {
+  float: right;
+  position: absolute;
+  top: 45vh;
+  right: 5vw;
+  font-size: 30px;
+  font-weight: bolder;
+  font-style: oblique;
+}
+
+.albumname {
+  float: right;
+  position: absolute;
+  font-size: 30px;
+  font-family: "Indie Flower", cursive;
+  background-color: white;
+  margin: 5px 0px;
+}
+
+#red {
+  color: #e08dba;
+}
+
+.pill {
+  color: gray;
+  margin: 0 auto;
+  background-color: white;
+  padding: 0px 20px 0px 10px;
+  text-align: center;
+}
+
+#blues {
+  color: #59c7de;
+}
+
+/* CSS VIDEOS */
+.v1 {
+  right: 0;
+  left: 0;
+  position: relative;
+  margin: auto;
+  top: 5vw;
+  max-width: 700px;
+  min-width: 320px;
+  display: block;
+  border: 10px solid white;
+  box-shadow: 0px 0px 30px grey;
+}
+
+.videoname{
+  font-family: "Indie Flower", cursive;
+  position: absolute;
+  display: block;
+  margin: 0 auto;
+  float: right;
+  top: 30vh;
+  right: 5vw;
+
+}
+
+#videoname1 {
+  font-size: 80px;
+  line-height: 90px;
+  background-color: white;
+  padding: 0 15px 0 15px;
+  margin: 0 auto;
+}
+
+#videoname2 {
+  font-size: 30px;
+  line-height: 40px;
+  background-color: white;
+  padding: 0 15px 0 15px;  
+  margin: 5px 0;
+}
+
+
+/* CSS CONTACTO */
+#todo {
+  width: 100%;
+  margin: auto;
+  padding: 20px;
+}
+
+.imagenformulario {
+  max-width: 400px;
+  min-width: 50px;
+  box-shadow: 0px 0px 15px grey;
+  margin: auto;
+  display: inline-block;
+}
+
+.formulario {
+  min-width: 200px;
+  max-width: 700px;
+  margin: auto;
+  text-align: center;
+  display: inline-block;
+}
+
+legend {
+  color: #59c7de;
+  font-size: 40px;
+  letter-spacing: 5px;
+  line-height: 60px;
+  text-transform: uppercase;
+  font-weight: lighter;
+}
+
+.basesycondiciones {
+  font-family: "Helvetica", sans-serif;
+  font-size: 8px;
+  color: grey;
+  text-transform: uppercase;
+}
+
+
+
+input.button {
+  text-transform: uppercase;
+}
+
+/* CSS DISCOGRAPHY */
+tr {
+  background-color: whitesmoke;
+
+}
+ul {
+  list-style: none;
+  padding: 0px;
+}
+
+td {
+  padding: 5px 10px;
+  border-color: whitesmoke;
+}
+
+.tapadisco {
+  width: 200px;
+  box-shadow: 2px 2px 6px grey;
+}
+
+#discography {
+  margin: 20px auto;
+}
+
+.tabletitles {
+  background-color: #59c7de;
+  color: white;
+  font-size: 18px;
+  font-weight: bold;
+  text-align: center;
+  text-transform: uppercase;
+  padding: 5px;
+}
+
+.infotecnica {
+  font-family: "helvetica";
+  font-size: 10px;
+  padding: 10px;
+  text-align: left;
+  line-height: 15px;
+}
+
+.integrantes {
+  font-size: 13px;
+  letter-spacing: 2px;
+}
+
+.year {
+  padding: 15px;
+  font-size: 25px;
+  letter-spacing: 3px;
+  color: #59c7de;
+}
+
+.tracklist {
+  font-family: "Indie Flower", cursive;
+  font-size: 13px;
+  line-height: 15px;
+}
+
+i {
+  color: #59c7de;
+  font-size: 28px;
+}
+
+.downloadcolumn {
+  text-align: center;
+  padding: 10px;
+}
+
+/* CSS FOOTER */
+footer {
+  width: max-content;
+  font-family: "Indie Flower", cursive;
+  font-size: 15px;
+  color: black;
+  display: block;
+  margin: auto;
+  text-align: center;
+}
+
+p {
+  margin-bottom: 5px;
+}
+
+i {
+  list-style-type: none;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  color: #59c7de;
+  font-size: 25px;
+  padding: 0 5px;
+}
